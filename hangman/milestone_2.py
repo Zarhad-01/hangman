@@ -1,8 +1,7 @@
 import random as rand
 
-
 # Task 1: Define list of possible words
-word_list = ["apple","bannana","plum","dragonfruit","durian"]
+word_list = ["apple","banana","plum","dragonfruit","durian"]
 
 print(f"Task 1: word_list: {word_list}")
 

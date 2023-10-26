@@ -23,7 +23,7 @@ The aim of this project is to provide a digital version of the traditional Hangm
 
 ## Usage
 
-1. Run the game by executing `python [TO-DO].py` in the command line.
+1. Run the game by executing `python milestone_2.py` or `python milestone_3.py` in the command line.
 2. Follow the on-screen instructions to play the game. You will be prompted to guess letters until you either guess the word or run out of attempts.
 
 ## File Structure
@@ -35,6 +35,7 @@ hangman/
 └───hangman/
         hangman_Template.py
         milestone_2.py
+        milestone_3.py
 ```
 ## License
 
