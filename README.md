@@ -23,8 +23,36 @@ The aim of this project is to provide a digital version of the traditional Hangm
 
 ## Usage
 
-1. Run the game by executing `python milestone_2.py` or `python milestone_3.py` in the command line.
+1. Run the game by executing `python milestone_[1, 2, 3, 4, or 5].py` in the command line.
 2. Follow the on-screen instructions to play the game. You will be prompted to guess letters until you either guess the word or run out of attempts.
+## Milestones
+
+### Milestone 2 - Basic Word Guessing (`milestone_2.py`)
+
+In this milestone:
+
+- A list of possible words is defined.
+- A random word is selected from the list.
+- The user is prompted to input a letter to guess. 
+
+### Milestone 3 - Enhanced Input Verification (`milestone_3.py`)
+
+In this milestone:
+
+- The program iteratively checks if the user's input is a valid guess.
+- The guessed letter is checked against the selected word.
+- Functions are introduced to streamline the checking process and obtain user input.
+
+### Milestone 4 - Object-Oriented Hangman (`milestone_4.py`)
+
+In this milestone:
+
+- The Hangman game is structured as an object-oriented class.
+- The `Hangman` class handles the game's state and provides methods for checking guesses and obtaining user input.
+- The number of lives the player has is tracked, and feedback is provided to the user as they guess letters.
+- If the player runs out of lives or successfully guesses the word, appropriate end-of-game messages are displayed.
+
+
 
 ## File Structure
 ```
