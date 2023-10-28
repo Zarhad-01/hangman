@@ -70,7 +70,24 @@ hangman/
 └───hangman/
         hangman_Template.py
         milestone_2.py
+hangman/
+│   .gitignore
+│   README.md
+│
+└───hangman/
+        hangman_Template.py
+        milestone_2.py
         milestone_3.py
+hangman/
+│   .gitignore
+│   README.md
+│
+└───hangman/
+        hangman_Template.py
+        milestone_2.py
+        milestone_3.py
+        milestone_4.py
+        milestone_5.py
 ```
 ## License
 
