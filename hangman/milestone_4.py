@@ -6,6 +6,7 @@ class Hangman:
         self.word_guessed = ['_'] * len(self.word)
         self.num_lives = num_lives
         self.list_of_guesses = []
+        print(f"You have now started the hangman game with {num_lives} lives. Enjoy!")
 
     def check_guess(self, guess):
         guess = guess.lower()
@@ -21,6 +22,7 @@ class Hangman:
 
     def ask_for_input(self):
         while self.num_lives > 0 and '_' in self.word_guessed:
+            print("Current word:", ' '.join(self.word_guessed))
             guess = input("Please input a letter: ")
 
             if len(guess) != 1 or not guess.isalpha():
@@ -31,17 +33,13 @@ class Hangman:
                 self.check_guess(guess)
                 self.list_of_guesses.append(guess)
 
-            print("Current word:", ' '.join(self.word_guessed))
 
-        if '_' not in self.word_guessed:
-            print("Congratulations! You guessed the word!")
-        else:
-            print(f"You're out of lives! The word was {self.word}.")
 
-hangman_words = [
+if __name__ == "__main__":
+    hangman_words = [
     "apple", "banana", "grape", "strawberry", "chocolate", "umbrella",
     "rhinoceros", "xylophone", "juxtapose", "pneumonia", "quizzical", "kaleidoscope"
-]
+    ]
 
-hm = Hangman(hangman_words)
-hm.ask_for_input()
+    hm = Hangman(hangman_words)
+    hm.ask_for_input()

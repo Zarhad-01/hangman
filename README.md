@@ -52,7 +52,14 @@ In this milestone:
 - The number of lives the player has is tracked, and feedback is provided to the user as they guess letters.
 - If the player runs out of lives or successfully guesses the word, appropriate end-of-game messages are displayed.
 
+### Milestone 5 - Game Loop Integration (`milestone_5.py`)
 
+In this milestone:
+
+- The previous `Hangman` class from Milestone 4 is imported and utilized.
+- A game loop is implemented to continuously prompt the user for input until the game concludes.
+- The game's ending conditions are clearly defined, whether the player runs out of lives, successfully guesses the word, or an unexpected error occurs.
+- This milestone streamlines the game-playing experience by integrating the core functionalities into a cohesive loop.
 
 ## File Structure
 ```
